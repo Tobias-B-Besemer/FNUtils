@@ -1,0 +1,36 @@
+         thelp   := FNUV->FNUT
+         DO WHILE FNUV->FNUP=FNUProc
+            SKIP
+            IF FNUV->FNUP=FNUProc
+               thelp := RTRIM(thelp) + FNUV->FNUT
+            ENDIF
+         ENDDO
+         FNUText := thelp
+
+Fill (Clear to) bei Mainmenu
+Insider scrollen
+Versions-Info komplett scrollen
+Blomberg-Schn. Rabatt (Lie, Imp ???)
+Blomberg-Schn. testen
+Liebherr-Schn. testen
+FNUHBuch ueberarbeiten
+
+Datenbank frei waehlbar (eigene Datenbank/vielleicht mischbar?)
+
+Programmausgleich ausbauen
+   Lagerbestand: (+/-), Server stimmt, Client stimmt
+   Daten S/C abgleichen/beibehalten
+
+Versions-Info sortierbar nach: orginal Reihenfolge (nach Sinn zusammengefasst)
+                               Name
+                               Datum
+                               Versions-Nummer
+                               Bezeichnung
+
+Artikelinformation
+Benutzerdatenbank
+Stunden eingeben
+GAEB-Schnittstelle
+Material- und Stunden-Zettel eingeben (Åbernahme zu den Stunden)
+
+Fehlerdatei fuer Secion und fuer alles mit MB-Begrenzung

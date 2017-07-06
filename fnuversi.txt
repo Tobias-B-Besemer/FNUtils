@@ -1,0 +1,153 @@
+Die F+N Utilities wurden mit Clipper 5.3a programmiert.
+
+Version 1.00:
+=============
+Erste Version, die zum Testen an die Firma BEWO herausgegeben wurde.
+
+
+Version 1.01  Stand 11.06.1997  :
+=================================
+Behebung eines Fehlers in der Datanorm-4-Schnittstelle.
+Neues Programm: L”schen ber L”schdatei
+Neues Programm: Artikeldatei l”schen
+
+
+Version 1.02  Stand 11.10.1997  :
+=================================
+Code komplett berarbeitet
+Erste Version die Netzwerkf„hig ist
+Erste Version mit Overlay-Dateien
+Neue Versions-Info
+Kleine Bugs behoben
+Fehlermeldungen verbessert
+nderungen an der Datanorm4-Schnittstelle: Warengruppenselektion m”glich
+                                           Stand der Daten ist einstellbar
+                                           Ausgabe der ges. Artikel im System
+                                           Ausgabe der Zeilennummer
+                                           Ausgabe der gesamten Zeilenzahl
+                                           Ausgabe des Bearbeitungsfortschritt
+                                           Berechnen der verbleibenden Zeit
+                                           Ausgabe des W„hrungskennzeichen
+                                           Berechnen des Rabatts auf VK
+Einstellbar ob Farben vom F+N-Manager bernommen werden sollen
+Fehlerausgabe in die FNUError.TXT-Datei
+
+
+Version 1.03.00  Stand 18.08.1999  :
+====================================
+Kleiner Bug in der Hilfe behoben
+Einbindungsf„higkeit in den F+N Manager
+nderungen an der Datanorm4-Schnittstelle:
+   Kleiner Bug behoben
+   Automatische Einser-Umwandlung
+   Zu ersetzende Mengeneinheiten ersetzen
+   Werkspreis (Einkaufspreis Brutto) wird untersttzt
+   Rabattsatz berarbeitet
+   Blank in "A;X;" eingefgt
+   Code optimiert
+   Berechnen des Rabatts auf EK-Brutto
+   Sichern des Langtextes bei Hauptsatz-L”schung ("A;L;")
+   Einkaufsp. Brutto = Verkaufsp. hinzugefgt
+   Einkaufsp. Brutto = Einkaufsp. N. hinzugefgt
+   Abfrage ob Artikel zum l”schen markieren werden sollen
+   Abfrage ob Datum aus der D4-Datei bernommen werden soll
+Aufruf eines externen Programmes zur Fehlermeldung
+Neue Version des Clipper-Mens
+Tastenzuordnung zur kurzen F+N-Utilities-Versionsinfo
+Kleine Verbesserungen im gesamten Programm
+Artikel-Langtext-Datei kann berprft werden
+Einser-Umwandlung
+Umstellung von Clipper 5.01a auf Clipper 5.3a
+nderungen an der Liebherr-Schnittstelle:
+   Schnittstelle komplett berarbeitet
+   Anzufgende Artikelnummer kann frei gew„hlt werden
+nderungen an der Imperial-Schnittstelle:
+   Suchbegriff wird eingetragen
+   Regalnummer wird eingetragen
+   Bug in der Preispflege behoben
+   Berechnen der verbleibenden Zeit
+   Anzufgende Artikelnummer kann frei gew„hlt werden
+Umstellung der Versions-Nummern-Vergabe
+Die Procedure: NextSemi wurde durch die Procedure: NextProc ersetzt
+Datenpflege ber Blomberg-Dateien
+DATA3-4.EXE Rel. 2.1
+Artikel mit Lagerbestand=0 l”schen
+
+
+Version 1.03.01  Stand 19.08.1999  :
+====================================
+Kleiner Bug beim šbernehmen des Datums aus der D4-Datei
+Kleiner optischer Fehler in der D4-Schnittstelle
+
+
+Version 1.03.02  Stand 21.08.1999  :
+====================================
+Kleiner Bug in der D4-Schnittstelle bei Rabatt auf EK-Brutto von ber 100%
+Kleiner Bug in der D4-Schnittstelle beim protokollieren von zu langen Preisen
+
+
+Version 1.04.00  Stand 01.09.1999  :
+====================================
+nderungen an der Datanorm4-Schnittstelle:
+   Kleiner Bug beim protokollieren von zu langen Preisen behoben
+      (2. Versuch - Jetzt aber :)
+   Feld fr verbleibende Minuten vergr”áert
+   Bearbeitungszeit hinzugefgt
+Datanorm4-Infos vollendet
+"Error-Datei anzeigen" hinzugefgt
+Versions-Info scrollf„hig gemacht
+ASCII-Men gefixed
+Mens berarbeitet
+"Artikeldatenpflege ber F+N-Artikel-Dateien" in
+   "Datenpflege ber Programmausgleich" umbenannt
+"Datenpflege ber ASCII-Dateien" in
+   "Datenpflege ber Artikel-Dateien" umbenannt
+Bei CMenueH beim aktivieren eines neuen Fensters den Namen in das alte
+   eingetragen
+"Artikeldatenpflege ber F+N-Artikel-Dateien" bei
+   "Datenpflege ber Artikel-Dateien" hinzugefgt
+Programm zum erstellen einer komplett neuen Artikeldatei
+Kleiner Bug beim ermitteln des DOS-Fehlers nachdem bearbeiten einer Bin„r-
+   Datei behoben.
+Fehlende Hilfen werden protokolliert
+Programm zum l”schen der FNUError-Datei hinzugefgt
+Fehler-Dokumentation in der Error-Datei wesentlich verbessert
+Starten und beenden des Programmes werden protokolliert
+
+
+Version ?.??.??:
+================
+Datenbank-Dateien neu erstellen
+Alle Langtext-Dateien berprfen
+Zu ersetzende Mengeneinheiten eingeben
+Zu ersetzende Mengeneinheiten ersetzen
+GAEB-Schnittstelle
+DATEV-Schnittstelle
+Rechnungs-Nummer ab„ndern
+Alle zum l”schen markierte Artikel l”schen
+(Artikelinformation)
+(Rechnungsjournal anzeigen/drucken)
+
+
+Vermutlich erst in der Windows-Version:
+=======================================
+Mausuntersttzung
+Datenpflege ber AEG-Dateien
+
+
+Version ?.??.??:
+================
+Fr eine neue Version von Tobi's F+N-Utilities brauche ich Ihre Anregungen
+und Tips. Falls Ihnen etwas auff„llt - und ist es nur eine Kleinigkeit -
+geben Sie mir bitte Bescheid.
+
+                         Tobias Besemer
+                         Grntenweg 7
+                         72622 Nrtingen-Reudern
+
+                         Tel.: 07022/93090-93
+                         Fax : 07022/93090-3
+                         BBS : 07022/93090-94
+
+                         E-Mail: Besi.Mail@gmx.net
+                         oder  : Gert.Besemer@T-Online.de
